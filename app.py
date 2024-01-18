@@ -30,7 +30,7 @@ context = """
 # Question about the context that LLM wouldn't know otherwise
 user_question = "What is Auryn's favorite food?"
 
-#TODO
+#TODO instruct llm to take the provided context and answer user's questions
 prompt = ""
 
 print(query_llm(prompt))

@@ -4,6 +4,8 @@ For Project 1, you'll use this project as a template to complete, refactor, and 
 On 1/22, we'll do a informal presentation of our projects
 
 ## Setting Up
+Name your repositories as "P1_your_name"
+
 The recommended practice when working with project locally is to set up a virtual environment.
 
 You should also have .env file containing environment variables specific to this project.
@@ -25,3 +27,4 @@ To run the app, simply run `py app.py`
 - Change the prompt. Give the LLM different persona. (Customer Service bot? Ordering bot?)
 - Use multiple sources as context
 - Load external files as context
+- Give the LLM memory (it can't hold a conversation right now. How would you be able to provide it with the previous chat?)
