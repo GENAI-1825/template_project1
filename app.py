@@ -1,9 +1,6 @@
-from dotenv import load_dotenv 
 import requests
-import os
 
-load_dotenv()
-
+# PLEASE DO NOT HARDCODE API KEY IN YOUR SOURCE CODE AND COMMIT TO A PUBLIC REPOSITORY
 def query_llm(prompt):
     #TODO
     api_url = "YOUR_ENDPOINT"

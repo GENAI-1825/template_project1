@@ -1,5 +1,4 @@
 # Project 1
-
 For Project 1, you'll use this project as a template to complete, refactor, and add additional functionalities of your choice.
 
 ## Setting Up
@@ -20,6 +19,7 @@ To run the app, simply run `py app.py`
 ## Ideas for refactor and additional functionalities
 - Refactor the application to multiple files 
 - Expand to a main function + various other methods
-- Load external files as context
 - Add a text UI
 - Change the prompt. Give the LLM different persona. (Customer Service bot? Ordering bot?)
+- Use multiple sources as context
+- Load external files as context
