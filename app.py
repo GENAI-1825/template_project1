@@ -5,17 +5,19 @@ import os
 load_dotenv()
 
 def query_llm(prompt):
+    #TODO
     api_url = "YOUR_ENDPOINT"
     api_key = "YOUR_KEY"
 
     req_header = {
         "Authorization": f"Bearer {api_key}"
     }
-    # For additional configuration, go to https://huggingface.co/docs/api-inference/detailed_parameters#text-generation-task
-    req_body = {
-        "inputs": prompt
-    }
-    response = requests.post(url=api_url, json=req_body, headers=req_header)
+
+    # TODO:For additional configuration, go to https://huggingface.co/docs/api-inference/detailed_parameters#text-generation-task
+    req_body = {}
+    
+    #TODO
+    response = requests.post()
 
     return response.json()
 
