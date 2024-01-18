@@ -1,6 +1,6 @@
 # Project 1
 
-For Project 1, you'll use this project as a template to refactor and add additional functionalities of your choice.
+For Project 1, you'll use this project as a template to complete, refactor, and add additional functionalities of your choice.
 
 ## Setting Up
 The recommended practice when working with project locally is to set up a virtual environment.
@@ -13,9 +13,13 @@ Once everything is done, you can install required libraries by running `pip inst
 
 To run the app, simply run `py app.py`
 
+## Requirements
+- The application should function and should be able to answer questions from a given context
+- It should also have at least 2 additional functionalities of your choice
+
 ## Ideas for refactor and additional functionalities
 - Refactor the application to multiple files 
 - Expand to a main function + various other methods
-- Load documents (ie text files, etc) as context, to simulate a RAG
+- Load external files as context
 - Add a text UI
 - Change the prompt. Give the LLM different persona. (Customer Service bot? Ordering bot?)
