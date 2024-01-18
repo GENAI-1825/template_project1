@@ -13,8 +13,12 @@ def query_llm(prompt):
         "Authorization": f"Bearer {api_key}"
     }
 
-    # TODO:For additional configuration, go to https://huggingface.co/docs/api-inference/detailed_parameters#text-generation-task
-    req_body = {}
+    # TODO: For additional configuration, go to https://huggingface.co/docs/api-inference/detailed_parameters#text-generation-task
+    req_body = {
+        "parameters": {
+            "temperature": 2
+        }
+    }
     
     #TODO
     response = requests.post()
