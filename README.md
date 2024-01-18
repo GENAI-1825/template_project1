@@ -13,7 +13,7 @@ Once everything is done, you can install required libraries by running `pip inst
 
 To run the app, simply run `py app.py`
 
-## Things you can do
+## Ideas for refactor and additional functionalities
 - Refactor the application to multiple files 
 - Expand to a main function + various other methods
 - Load documents (ie text files, etc) as context, to simulate a RAG
