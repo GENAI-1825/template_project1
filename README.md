@@ -1,5 +1,7 @@
-# Project 1
+# Project 1 (Due 1/22 3PM Eastern Time)
 For Project 1, you'll use this project as a template to complete, refactor, and add additional functionalities of your choice.
+
+On 1/22, we'll do a informal presentation of our projects
 
 ## Setting Up
 The recommended practice when working with project locally is to set up a virtual environment.
