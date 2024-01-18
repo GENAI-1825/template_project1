@@ -18,3 +18,4 @@ To run the app, simply run `py app.py`
 - Expand to a main function + various other methods
 - Load documents (ie text files, etc) as context, to simulate a RAG
 - Add a text UI
+- Change the prompt. Give the LLM different persona. (Customer Service bot? Ordering bot?)
